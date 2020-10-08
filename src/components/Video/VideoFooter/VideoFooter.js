@@ -12,7 +12,7 @@ const VideoFooter = ({channel,description,song}) => {
                 <h3>@{channel}</h3>
                 <p>{description}</p>
                 <div className="videoFooter_ticker">
-                    <FontAwesomeIcon className="videoFooter_icon" icon={faMusic} size=""/>
+                    <FontAwesomeIcon className="videoFooter_icon" icon={faMusic} />
                     <Ticker mode="smooth">
                         {({index}) => (
                             <>
